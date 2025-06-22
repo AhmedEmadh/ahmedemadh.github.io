@@ -41,13 +41,10 @@ section{
 .main{
     display: flex;
     align-items: center;
-    
     background-size: cover;
     background-position: center center;
-    
     background: url('https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1350&q=80') no-repeat center center/cover;
     background-attachment: fixed;
-    
 }
 .main h2 {
     color: #fff;
@@ -110,9 +107,6 @@ section{
     min-width: 18.25em;
     max-width: 23em;
     overflow-wrap: break-word;
-    /* aspect-ratio: 16 / 9; */
-
-
     box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
     padding: 25px;
     border-radius: 10px;
@@ -136,10 +130,6 @@ section{
 .info{
     text-align: left;
 }
-
-
-
-
 .project-card {
     background-color: #fff;
     border: 1px solid #fff;
@@ -151,15 +141,7 @@ section{
     transition: 0.7s ease;
     display: flex;
     flex-direction: column;
-    justify-content: space-between; 
-    /* Paste */
-    /*     
-    height: 100%; 
-    border: 1px solid #ccc;
-    padding: 10px;
-    box-sizing: border-box;
-    */
-
+    justify-content: space-between;
 }
 .project-card:hover {
     transform: scale(1.05);
@@ -225,9 +207,6 @@ footer .social-icons a{
     .navigation a {
         padding-left: 15px;
     }
-        .logo{
-            color:red;
-        }
 }
 @media (max-width: 480px){
     /* decrease pages em to 14px */
@@ -237,25 +216,59 @@ footer .social-icons a{
     .navigation a {
         padding-left: 5px;
     }
-        .logo{
-            color:green;
+        .social-icons a{
+            padding-right: 15px;
         }
 }
 @media (max-width: 400px){
     /* decrease pages em to 14px */
     body{
-        font-size: 12px;
+        font-size: 13px;
     }
     .navigation a {
         padding-left: 3px;
     }
-    .logo{
-        color:purple;
-    }
     footer .social-icons a {
-        padding-right: 10px;
+        padding-right: 3px;
     }
     header{
         padding: 10px 5%;
     }
+    .social-icons a{
+        padding-right: 10px;
+    }
+}
+/* media query for width more than 1500px */
+@media (min-width: 1500px){
+    body{
+        font-size: 20px;
+    }
+    
+}
+/* media query for width more than 2000px */
+@media (min-width: 2000px){
+    body{
+        font-size: 25px;
+    }
+    
+}
+/* media query for width more than 2500px */
+@media (min-width: 2500px){
+    body{
+        font-size: 30px;
+    }
+}
+/* media query for width more than 3000px */
+@media (min-width: 3000px){
+    body{
+        font-size: 40px;
+    }
+    
+}
+/* media query for width more than 3500px */
+@media (min-width: 3500px){
+    body{
+        font-size: 50px;
+    }
+    
 }
