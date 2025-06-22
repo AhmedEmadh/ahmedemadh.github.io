@@ -221,3 +221,41 @@ footer .social-icons a{
     font-size: 1em;
     padding-right: 20px;
 }
+@media (max-width: 600px){
+    .navigation a {
+        padding-left: 15px;
+    }
+        .logo{
+            color:red;
+        }
+}
+@media (max-width: 480px){
+    /* decrease pages em to 14px */
+    body{
+        font-size: 14px;
+    }
+    .navigation a {
+        padding-left: 5px;
+    }
+        .logo{
+            color:green;
+        }
+}
+@media (max-width: 400px){
+    /* decrease pages em to 14px */
+    body{
+        font-size: 12px;
+    }
+    .navigation a {
+        padding-left: 3px;
+    }
+    .logo{
+        color:purple;
+    }
+    footer .social-icons a {
+        padding-right: 10px;
+    }
+    header{
+        padding: 10px 5%;
+    }
+}
