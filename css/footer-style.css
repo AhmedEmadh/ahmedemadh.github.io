@@ -1,0 +1,19 @@
+footer{
+    background-color: #000;
+    width: 100%;
+    padding: 10px 10px;
+    text-align: center;
+    color: #fff;
+    font-size: 1em;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+footer p span{
+    color: #3a6cf4;
+}
+footer .social-icons a{
+    color: #fff;
+    font-size: 1em;
+    padding-right: 20px;
+}
